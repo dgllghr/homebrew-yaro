@@ -7,7 +7,7 @@ class Yaro < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://forgejo.gllghr.net/d/yaro/releases/download/v0.1.3/yaro_darwin_arm64.tar.gz"
-      sha256 "9f5c43f4046eaf7a6eecbbb450d60f90758f88c008a2466b2b0fee5a727d71b7"
+      sha256 "6a32d2c957ac3e97ece213f6b962cb8f619c87ac8d853170b24585c1ea566585"
     else
       odie "yaro currently only supports Apple Silicon Macs via Homebrew."
     end
