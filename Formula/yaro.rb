@@ -1,13 +1,13 @@
 class Yaro < Formula
   desc "Semantic navigator for notes"
   homepage "https://forgejo.gllghr.net/d/yaro"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://forgejo.gllghr.net/d/yaro/releases/download/v0.1.2/yaro_darwin_arm64.tar.gz"
-      sha256 "f4d3e70cf8e07ae72ab7d5ffb024b3f6ea0fc958581df260ae654af3666f34e2"
+      url "https://forgejo.gllghr.net/d/yaro/releases/download/v0.1.3/yaro_darwin_arm64.tar.gz"
+      sha256 "9f5c43f4046eaf7a6eecbbb450d60f90758f88c008a2466b2b0fee5a727d71b7"
     else
       odie "yaro currently only supports Apple Silicon Macs via Homebrew."
     end
